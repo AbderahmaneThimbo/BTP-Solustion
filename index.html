@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTS Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="contenair">
+        <header>
+            <div class="logo">
+                <img src="images/BTP_mini-Solutions_Logo----.png" alt="image logo">
+            </div>
+        
+            <ul class="menu">
+                <li><a href="#home">Acceuil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#aboutus">A propos</a></li>
+                <li><a href="#contact">Contact</a><li>
+            </ul>
+            
+            <!-- menu responsive -->
+            <div class="toggle_menu"></div>
+           
+        </header>
+
+        <!-- Acceuil -->
+
+        <section id="home">
+            <div class="home">
+                <h1>Construisons ensemble des infrastructures durables avec BTP Solutions</h1>
+                <h3>Expertise, qualité et innovation au service de vos projets</h3>
+                <button>Contactez-nous</button>
+            </div>
+            <!-- <div class="slider"></div> -->
+        </section>
+
+        <!-- Services -->
+
+        <section id="services">
+            <h1>Nos Services</h1>
+            <hr>
+            <div class="services">
+                <div class="service">
+                    <div class="image">
+                        <img src="images/service-1.webp" alt="image service">
+                    </div>
+                    <div class="text">
+                        <h2>Construction de bâtiments</h2>
+                        <p>Des constructions robustes et esthétiques pour <br> tous vos besoins résidentiels, commerciaux et industriels.</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="image">
+                        <img src="images/service-2.webp" alt="image service">
+                    </div>
+                    <div class="text">
+                        <h2>Travaux publics</h2>
+                        <p>Des infrastructures publiques fiables et durables, <br> incluant routes, ponts et aménagements urbains.</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="image">
+                        <img src="images/service-3.webp" alt="image service">
+                    </div>
+                    <div class="text">
+                        <h2>Rénovation et réhabilitation</h2>
+                        <p>Redonnez vie à vos bâtiments avec <br>nos solutions de rénovation complètes et innovantes.</p>
+                  </div>
+            </div>
+        </section>
+
+        <!-- A propos de nous -->
+
+        <section id="aboutus">
+            <h1>A propos de nous</h1>
+            <hr>
+            <div class="aboutus">
+               
+                <div class="text">
+                    <p>BTP Solutions est une entreprise de Bâtiment et Travaux <br>Publics dédiée à la réalisation de projets d'infrastructures <br> de haute qualité. Avec une équipe d'experts passionnés <br> et expérimentés, nous nous engageons à fournir des solutions <br>innovantes et durables pour répondre aux besoins de nos clients.</p>
+                </div>
+                <div class="image">
+                    <img src="images/font.jpg">
+                </div>
+            </div>
+        </section>
+
+        <!-- clients -->
+
+        <section id="clients">
+            <h1>Nos clients</h1>
+            <hr>
+            <div class="clients">
+                <div class="client">
+                    <div class="nom">
+                        <img src="images/client1.png" alt="image client">
+                       <h4>Richard Docs</h4>
+                    </div>
+                    <p>Grâce à BTP Solutions, notre nouveau siège <br> social est un véritable succès. <br> Leur professionnalisme et <br> leur souci du détail ont été remarquables.</p>
+                </div>
+                <div class="client">
+                   <div class="nom">
+                    <img src="images/client2.png" alt="image client">
+                    <h4>Ashley Jordan</h4>
+                   </div>
+                   <p>La nouvelle route construite par BTP <br> Solutions a considérablement amélioré <br> la circulation dans notre commune. <br> Une entreprise que je recommande vivement.</p>
+                </div>
+                <div class="client">
+                    <div class="nom">
+                        <img src="images/client3.png" alt="image client">
+                        <h4>Michael Jobs</h4>
+                    </div>
+                    <p>Les travaux de rénovation de notre <br>école ont été réalisés avec une grande <br> précision et dans les délais impartis. <br> Merci à toute l'équipe de BTP Solutions.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- contactez-nous -->
+
+        <section id="contact">
+            <h1>Contactez-nous</h1>
+            <hr>
+            <div class="contact">
+                <div class="form">
+                    <div class="call">
+                        <i><ion-icon class="icon" name="mail-outline"></ion-icon>contact@btpsolutions.com</i>
+                        <i><ion-icon class="icon" name="call-outline"></ion-icon>+123 456 7890</i>
+                    </div>
+                    <form id="contactForm" action="#" method="post" onsubmit="return validateForm()">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="Email" placeholder="Votre email" required>
+                        <label for="Message">Message</label>
+                        <textarea  name="Message" id="Message" cols="30" rows="10" placeholder="Message" required></textarea>
+                        <button>Envoyer</button>
+                    </form>
+                </div>
+                <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387194.0735997781!2d-74.3100122101155!3d40.697017337351575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20%C3%89tat%20de%20New%20York%2C%20%C3%89tats-Unis!5e0!3m2!1sfr!2s!4v1718370839532!5m2!1sfr!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <div class="copyrith">
+            <h4>&copy;2024 All Rights Reserved</h4>
+        </div>
+        <div class="link">
+          <a href=""><i>Twitter<ion-icon name="logo-twitter"></ion-icon></i></a>
+          <a href=""><i>Linkedin<ion-icon name="logo-linkedin"></ion-icon></i></a>
+        </div>
+    </footer>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    
+    <script>
+        const small_menu = document.querySelector('.toggle_menu')
+        const menu = document.querySelector('.menu')
+        small_menu.onclick = function(){
+            small_menu.classList.toggle('active')
+            menu.classList.toggle('responsive')
+        }
+
+        function validateForm() {
+               const name = document.getElementById('name').value;
+               const email = document.getElementById('email').value;
+
+              const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+              const namePattern = /^[a-zA-Z\s]+$/;
+  
+              if (!namePattern.test(name)) {
+                 alert("Le nom ne doit pas contenir de chiffres.");
+                 return false;
+               }
+              if (!emailPattern.test(email)) {
+                   alert("Veuillez entrer une adresse email valide.");
+                   return false;
+              }
+                    return true;
+         }
+
+     </script>
+</body>
+</html>
