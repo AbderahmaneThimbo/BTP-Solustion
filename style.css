@@ -84,7 +84,7 @@ header{
     color: black;
 }
 .home h3{
-   color: grey;
+   color: var(--Dark-Cyan);
    margin-top: 25px;
    margin-bottom: 45px;
 }
@@ -160,6 +160,9 @@ hr {
   color: grey;
   margin-bottom: 20px;
   line-height: 23px;
+  text-align: left;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 
@@ -182,10 +185,8 @@ hr {
     padding: 20px;
     margin: 30px 10px;
 }
-#aboutus .aboutus .text{
-    /* background-color: var(--withe); */
+#aboutus .aboutus .text{ 
     border-radius: 20px;
-    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
     flex: 1;
     margin: 20px;
 }
@@ -224,12 +225,14 @@ hr {
     justify-content: space-evenly;
     margin-top: 60px;
     margin-bottom: 60px;
+    
 }
 
 #clients .clients .client {
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
 }
 #clients .clients .client .nom{
     display: flex;
@@ -289,6 +292,7 @@ hr {
 }
 .call i .icon{
     margin-right: 10px;
+    margin-left: 10px;
     font-size: 20px;
 }
 .form form{
@@ -487,7 +491,7 @@ footer .link a i{
         gap: 20px;
     }
     .service{
-        width: 50%;
+        width: 70%;
     }
     .service .text h2{
         font-size: 18px;
@@ -502,11 +506,14 @@ footer .link a i{
         gap: 20px;
     }
     .aboutus .text {
-        margin: 10px 30px;
+        /* margin: 10px 30px; */
+        display: flex;
+        justify-content: center;
     }
     .aboutus .text p{
-        font-size: 14px;
+        font-size: 5px;
         line-height: 15px;
+    
     }
     .aboutus .image {
        display: contents;
@@ -544,6 +551,21 @@ footer .link a i{
     }
     .maps iframe{
         width: 88%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 10vh;
+    }
+    .copyrith{
+        margin-top: 10px;
+    }
+    .link{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 10;
     }
     .toggle_menu {
       display: flex;
