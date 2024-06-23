@@ -84,7 +84,7 @@ header{
     color: black;
 }
 .home h3{
-   color: var(--Dark-Cyan);
+   color: var(--primary-color);
    margin-top: 25px;
    margin-bottom: 45px;
 }
@@ -100,17 +100,6 @@ header{
     height: 50px;
     
 }
-/* .slider {
-    background-color: var(--primary-color);
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-} */
 
 hr {
     border: 1px solid silver;
@@ -180,31 +169,29 @@ hr {
 }
 #aboutus .aboutus{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
     padding: 20px;
     margin: 30px 10px;
 }
 #aboutus .aboutus .text{ 
-    border-radius: 20px;
-    flex: 1;
-    margin: 20px;
+    padding: 0;
 }
 #aboutus .aboutus .text p{
-    font-size: 28px;
-    line-height: 1.5;
+    font-size: 20px;
+    line-height: 1.8;
     color: #333;
+    
 }
 #aboutus .aboutus .image {
-    flex: 1;
     display: flex;
     justify-content: center;
+   
 }
 #aboutus .aboutus .image img{
     max-width: 70%;
     height: auto;
     border-radius: 10px;
-    
 }
 
 /* clients */
@@ -273,6 +260,7 @@ hr {
     margin-bottom: 60px;
     
 }
+
 .maps {
     display: contents;
 }
@@ -282,18 +270,21 @@ hr {
 }
 #contact .contact .form{
     background-color: var(--Dark-Cyan);
+    width: 500px;
 }
 .call{
     display: flex;
     justify-content: space-between;
     margin: 20px 30px;
-    font-size: medium;
+    font-size: 18px;
     color: var(--withe);
 }
-.call i .icon{
-    margin-right: 10px;
-    margin-left: 10px;
-    font-size: 20px;
+.call i {
+    display: flex;
+    align-items: center;
+}
+.call ion-icon {
+    margin-right: 10px; 
 }
 .form form{
     display: flex;
@@ -544,7 +535,7 @@ footer .link a i{
         width: 87%;
     }
     form{
-        width: 90%;
+        display: contents;
     }
     .maps{
         display: contents;
@@ -556,16 +547,18 @@ footer .link a i{
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 10vh;
+        height: 12vh;
     }
     .copyrith{
         margin-top: 10px;
+        margin-right: 35px;
     }
     .link{
         display: flex;
         flex-direction: column;
-        gap: 10px;
-        margin-bottom: 10;
+        gap: 12px;
+        padding-bottom: 12px;
+        margin-left: 35px;
     }
     .toggle_menu {
       display: flex;
