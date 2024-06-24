@@ -59,7 +59,7 @@ header{
 
 
 #home{
-  background-image: url(images/rcm_bat_cover.jpg);
+  background-image: url(images/rcm_bat_cover.webp);
   background-size: 100% 90%;
   background-repeat: no-repeat;
   height: 100vh;
@@ -146,7 +146,7 @@ hr {
 }
 .service .text p{
   font-size: 17px;
-  color: grey;
+  color: var(--primary-color);
   margin-bottom: 20px;
   line-height: 23px;
   text-align: left;
@@ -232,7 +232,7 @@ hr {
 }
 #clients .clients .client p {
     font-size: 20;
-    color: grey;
+    color: var(--primary-color);
     line-height: 25px;
     margin-top: 30px;
     margin-bottom: 30px;
