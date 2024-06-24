@@ -84,7 +84,7 @@ header{
     color: black;
 }
 .home h3{
-   color: var(--primary-color);
+   color: black;
    margin-top: 25px;
    margin-bottom: 45px;
 }
@@ -540,6 +540,12 @@ footer .link a i{
     .maps{
         display: contents;
     }
+    .call{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
     .maps iframe{
         width: 88%;
     }
@@ -548,6 +554,7 @@ footer .link a i{
         flex-direction: column;
         align-items: center;
         height: 12vh;
+        gap: 10px;
     }
     .copyrith{
         margin-top: 10px;
